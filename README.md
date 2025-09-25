@@ -24,24 +24,23 @@ Aplikasi ini menerapkan operasi **CRUD (Create, Read, Update, Delete)** mengguna
    ```bash
    git clone https://github.com/username/pbw-crud-uas.git
 
+2. Import database:
 
-Import database:
+> Buka phpMyAdmin
 
-Buka phpMyAdmin
+> Buat database baru, misalnya db_pbw
 
-Buat database baru, misalnya db_pbw
+> Import file kuliah_pemrograman_web.sql
 
-Import file kuliah_pemrograman_web.sql
+3. Konfigurasi koneksi.php sesuai dengan username dan password MySQL kamu:
 
-Konfigurasi koneksi.php sesuai dengan username dan password MySQL kamu:
-
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "db_pbw";
+      $host = "localhost";
+      $user = "root";
+      $pass = "";
+      $db   = "db_pbw";
 
 
-Jalankan aplikasi melalui browser:
+4. Jalankan aplikasi melalui browser:
 
 http://localhost/pbw-crud-uas/tampil-data.php
 
